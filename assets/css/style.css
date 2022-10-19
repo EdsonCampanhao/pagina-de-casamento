@@ -1,0 +1,27 @@
+:root {
+    --letra-cursiva: 'Ms Madi';
+    --fonte-principal: #647e50;
+    --fonte-secundaria: #acb080;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body {
+    background-image: url(/assets/img/fundo-1.jpg);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+main {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+   
+}

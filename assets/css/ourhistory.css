@@ -1,0 +1,81 @@
+:root {
+
+    --letra-cursiva: 'Ms Madi';
+    --fonte-principal: #aacd90;
+    --fonte-secundaria: #acb080;
+
+}
+
+.section {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.section__imagem {
+
+    margin-top: 1em;
+    align-self: center;
+    width: 50%;
+    border-radius: 15%;
+
+}
+
+.section__titulo {
+
+    color: var(--fonte-principal);
+    margin: .5em;
+    font-family: var(--letra-cursiva);
+    font-size: min(6.3888888889vw,3em);
+    border-bottom: 1px solid rgb(90, 94, 90);
+   
+
+}
+
+.section__texto {
+    
+
+    color: var(--fonte-secundaria);
+    font-size: 0.1em;
+    font-family: var(--letra-cursiva);
+    margin: 0 0px 10px 0;
+    font-size: min(6.3888888889vw,2.5em);
+
+}
+@media screen and ( min-width: 600px){ 
+    .section__imagem {
+        position: relative;
+        top: -150px;
+        
+        align-self: center;
+        width: 30%;
+        border-radius: 50%;
+    
+    }
+    .section__titulo {
+        position: relative;
+        top: -150px;
+
+        color: var(--fonte-principal);
+        margin: 2em;
+        font-family: var(--letra-cursiva);
+        font-size: min(6.3888888889vw,3em);
+    
+    }
+    
+    .section__texto {
+    position:relative;
+top: -150px;
+        color: var(--fonte-secundaria);
+        font-size: 0.1em;
+        font-family: var(--letra-cursiva);
+        margin: 0 0px 10px 0;
+        font-size: min(6.3888888889vw,2.5em);
+    
+    }
+    
+}

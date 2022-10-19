@@ -1,0 +1,39 @@
+.card{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 36px;
+}
+.card__titulo{
+    font-family: var(--letra-cursiva);
+    padding-bottom: 1em;
+    color: var(--fonte-secundaria);
+}
+.card__imagem{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow:  1px 1px 5px black;
+    margin-bottom: 24px;
+
+}
+
+.card__texto{
+    font-family: var(--letra-cursiva);
+    color: var(--fonte-secundaria);
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 1em;
+}
+.dicas{
+    border-top: 1px solid black;
+    padding-top: 1em;
+}
+
+.dicas__item{
+    font-size: 16px;
+
+}
+.map{
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+}

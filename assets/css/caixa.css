@@ -1,0 +1,123 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.caixa {
+
+    box-shadow: 10px 5px 5px rgb(106, 102, 102);
+    width: 90%;
+
+}
+
+body {
+
+    background-image: url(/assets/img/fundo-1.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+
+}
+
+header {
+    background-image: url(/assets/img/imagem-caixa\(1\).jpg);
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    background-size: 600px;
+}
+
+
+main {
+
+    width: 100%px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+footer {
+    background-image: url(/assets/img/imagem-caixa.jpg);
+    width: 100%;
+    height: 226px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 600px;
+}
+
+@media screen and ( min-width: 620px){
+
+    
+    
+    body {
+    
+        background-image: url(/assets/img/fundo-1.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    
+    }
+
+    .caixa {
+
+        box-shadow: 10px 5px 5px rgb(106, 102, 102);
+        width: 70%;
+    
+    }
+
+    header {
+        background-image: none;
+        background-color: rgb(251, 251, 251);
+        width: 100%px;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-size:1500px;
+    
+    }
+    .invite__nav {
+        display: flex;
+        list-style: none;
+        align-self: flex-end;
+        justify-content: center;
+        margin-bottom: 30px;
+        position: relative;
+        top: -90px;
+    
+    }
+    
+    .invite__nav-option {
+        text-decoration: none;
+        padding: 3px;
+        border-right: 1px solid #acb080;
+        color: #586e26;
+        font-size: 1.5em ;
+    }
+
+    main {
+
+        width: 100%;
+        background-color: rgb(251, 251, 251);
+    
+    }
+    
+    footer {
+        background-image: none;
+        background-color: rgb(251, 251, 251);
+        width: 100%px;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-size:1500px;
+
+    }
+    
+}
