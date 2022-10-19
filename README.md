@@ -1,2 +1,2 @@
-# Weding-Page
-projeto próprio para praticar
+
+projeto criado somente para praticar
